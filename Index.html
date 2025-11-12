@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CetusPortal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#channel">Channel</a></li>
+      <li><a href="#rubik">Rubik Solver</a></li>
+      <li><a href="#ian">Ian's Channel</a></li>
+      <li><a href="#midnight">MIDNIGHT WAR COMING JANUARY–MARCH 2026!</a></li>
+    </ul>
+  </nav>
+
+  <div id="timer-container">
+    <span id="countdown"></span>
+    <button id="edit-btn">Edit</button>
+    <div id="editor" class="hidden">
+      <label for="newTime">Set New Time (YYYY-MM-DD HH:MM):</label>
+      <input type="datetime-local" id="newTime" />
+      <button id="saveTime">Save</button>
+    </div>
+  </div>
+
+  <section id="channel">
+    <h2>Channel</h2>
+    <div class="channel-section">
+      <img src="dragon.jpg" alt="Cetus Dragon" id="channel-img" />
+      <p>Click the image to visit the channel</p>
+    </div>
+  </section>
+
+  <section id="rubik">
+    <h2>Rubik Cube Solver AI</h2>
+    <button id="startScan">Start Cube Scan</button>
+    <video id="cameraFeed" autoplay playsinline class="hidden"></video>
+    <div id="solutionOutput"></div>
+  </section>
+
+  <section id="ian">
+    <h2>Ian's Channel</h2>
+    <p>Click the squirrel to visit @hipchip-p2n</p>
+    <img src="squirrel-meme.jpg" alt="Dramatic Squirrel Meme" id="ian-img" />
+  </section>
+
+  <section id="midnight">
+    <h2>MIDNIGHT WAR</h2>
+    <p class="teaser">COMING JANUARY–MARCH 2026!</p>
+    <p>Prepare for the mythic battles, snake flashbacks, and cinematic cutscenes that will define the war.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
