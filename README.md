@@ -1,6 +1,6 @@
 # CetusPortal
 
-CetusPortal is a mythic hybrid website built by Zakariya, blending cinematic storytelling, viral challenges, and interactive tools. It features countdowns to video drops, a Rubik Cube Solver AI, channel links, and a teaser for the upcoming MIDNIGHT WAR saga.
+CetusPortal is a mythic hybrid website built by me. It includes: interactive tools, countdowns to video drops, a Rubik Cube Solver AI, channel links, and a teaser for the upcoming MIDNIGHT WAR saga.
 
 ---
 
